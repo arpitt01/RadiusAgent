@@ -26,7 +26,7 @@ SECRET_KEY = '&+(1+&#&2b80pv+j334bbkd=-+c-5*-nglqms$56f6=p48q!b1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'radiusagent.herokuapp.com' ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Application definition
