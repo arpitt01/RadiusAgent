@@ -27,7 +27,7 @@ SECRET_KEY = '&+(1+&#&2b80pv+j334bbkd=-+c-5*-nglqms$56f6=p48q!b1'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Application definition
 
