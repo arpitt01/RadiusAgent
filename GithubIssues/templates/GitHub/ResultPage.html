@@ -1,0 +1,79 @@
+
+<style>
+    h1{
+        position:fixed;
+        top:10%;
+        left:25%;
+        width:50%;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    body{
+        background : ThreeDFace ;
+    }
+.table td {
+    font-size: 20px;
+    text-align: left;
+    color: darkslategray;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.table tr {
+     color: white;
+    cursor: pointer;
+}
+.table th{
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: left;
+}
+    .table{
+        position:fixed;
+        top:25%;
+        left:10%;
+        width:75%;
+    }
+    .button {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        position:fixed;
+        top:45%;
+        left:40%;
+    }
+    h1{
+        position:fixed;
+        top:10%;
+        left:25%;
+        width:50%;
+    }
+</style>
+<body>
+    <h1 align="center">Github Issues Analysis</h1>
+    <div class="results">
+        <table class="table" align="center">
+            <tr>
+              <td>Total number of open issues </td>
+              <td>{{ ev_total_issues }}</td>
+            </tr>
+            <tr>
+              <td>Number of open issues that were opened in the last 24 hours </td>
+              <td>{{ ev_last_24hrs_issues }}</td>
+            </tr>
+            <tr>
+              <td>Number of open issues that were opened more than 24 hours ago but less than 7 days ago </td>
+              <td>{{ ev_last_24hrs_to_7days_issues }}</td>
+            </tr>
+              <tr>
+              <td>Number of open issues that were opened more than 7 days ago </td>
+              <td>{{ ev_remaining_issues }}</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+<button class="button" onclick="window.location.href={% url 'RadiusAgent:main' %}" >New github link</button>
+</div>
+</body>
+{#{% endif %}#}

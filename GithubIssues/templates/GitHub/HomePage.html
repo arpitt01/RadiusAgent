@@ -1,0 +1,48 @@
+<style>
+    body{
+        background : ThreeDFace ;
+    }
+    .post-form{
+        position:fixed;
+        top:25%;
+        left:20%;
+        width:100%;
+    }
+    .submit {
+        width: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    h1{
+        position:fixed;
+        top:10%;
+        left:25%;
+        width:50%;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    .input{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+<h1 align="center">Analyse Github Issues</h1>
+<form method="POST" align="centre" class="post-form">{% csrf_token %}
+         <input name = "GithubLink" class="input" type = url placeholder="Enter your github repository url here"/>
+         <button type="submit" class="submit" >Search</button>
+        {% for message in messages %}
+            <div style="color: darkred">
+                *ERROR: {{ message|safe }}
+            </div>
+        {% endfor %}
+    </form>
+</body>
