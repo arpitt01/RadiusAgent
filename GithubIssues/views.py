@@ -3,7 +3,7 @@ import urllib.request as url
 import requests
 from django.contrib import messages
 import math
-from .utils import Search, Validations, Data
+from .utils import Validations, Data
 
 
 def home(request):
@@ -28,27 +28,24 @@ def home(request):
             messages.error(request, Data.errorMessages(lo_url['ev_errorNumber']))
         else:
             # create full url from api and url entered
-            lv_api = "https://api.github.com/repos/" + lo_url['ev_rep_path']
-            # call github api from requests.get() function --> convert it into json --> get "open_issues_count" value drom json
-            lo_issues_data = requests.get(lv_api)
+            #different componets of query in url
+            lv_api_main = "https://api.github.com/search/issues?q=repo:" + lo_url['ev_rep_path'] + "+is:open+type:issue"
+            lv_api_pagination = "&page=1&per_page=1"
+            lv_api_created_tag = "+created:>"
+
+            # call github api from requests.get() function -->
+            lo_issues_data = requests.get(lv_api_main + lv_api_pagination)
             if lo_issues_data.status_code == 403:
-                messages.error(request, "Maximum requests within 1 hour to Github API reached. Please try after 1 hour. MORE DETAILES: https://developer.github.com/v3/#rate-limiting")
+                messages.error(request,
+                               "Maximum requests within 1 hour to Github API reached. Please try after 1 hour. MORE DETAILES: https://developer.github.com/v3/#rate-limiting")
             else:
-                lv_total_issue_count = lo_issues_data.json()["open_issues_count"]
-
-                # considering github issues as 2D array of size: lv_total_rows X 100
-                # so we get total number of rows by "lv_total_issue_count/100"
-                lv_total_rows = math.ceil(lv_total_issue_count / 100)
-
-                # getOldTiimeStamp function of Data.py returns timestamp of n days before current timestamp in format which github stores
-                # getting issues occured in last 24 hours from function getIssueCount by passing tmestamp of 1 day before current timestamp
-                lv_last_24hrs_issues = Search.getIssueCount(lv_api, lv_total_rows, Data.getOldTimeStamp(1))
-
+                # convert it into json -->get "total_count" value from json
+                lv_total_issue_count = lo_issues_data.json()["total_count"]
+                lv_last_24hrs_issues = requests.get(lv_api_main + lv_api_created_tag + Data.getOldTimeStamp(1) + lv_api_pagination).json()["total_count"]
                 # subtracting number of issues occured in last 24 hours from no. of issues in last 7 days
-                lv_last_24hrs_to_7days_issues = Search.getIssueCount(lv_api, lv_total_rows,
-                                                                     Data.getOldTimeStamp(7)) - lv_last_24hrs_issues
+                lv_last_24hrs_to_7days_issues = requests.get(lv_api_main + lv_api_created_tag + Data.getOldTimeStamp(7) + lv_api_pagination).json()["total_count"] - lv_last_24hrs_issues
 
-                # getting remaining issues
+                # # getting remaining issues
                 lv_remaining_issues = lv_total_issue_count - lv_last_24hrs_to_7days_issues - lv_last_24hrs_issues
 
                 # returning required parameters in context to template
@@ -59,7 +56,6 @@ def home(request):
                     "ev_remaining_issues": lv_remaining_issues
                 }
                 return render(request, 'GitHub/ResultPage.html', context)
-
 
     return render(request, 'GitHub/HomePage.html')
 

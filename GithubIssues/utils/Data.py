@@ -11,11 +11,11 @@ def getOldTimeStamp(iv_number_of_days):
     # ************************************************************************************************************#
 
     if iv_number_of_days == 0:
-        ev_timestamp = datetime.now().replace(microsecond=0).isoformat() + 'Z'
+        ev_timestamp = datetime.now().replace(microsecond=0).isoformat()
     else:
         # timedelta(n) gives timestamp difference between n days
         # replace(microsecond=0).isoformat() converts timestamp to ISO 8601 format
-        ev_timestamp = (datetime.now() - timedelta(days=iv_number_of_days)).replace(microsecond=0).isoformat() + 'Z'
+        ev_timestamp = (datetime.now() - timedelta(days=iv_number_of_days)).replace(microsecond=0).isoformat()
     return ev_timestamp
 
 
