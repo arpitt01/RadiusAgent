@@ -20,6 +20,5 @@ from GithubIssues import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('', views.home, name='main'),
-    url('Results/', views.results, name='results'),
+    url(r'^FindGitHubIssues/', include('GithubIssues.urls')),
 ]

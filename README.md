@@ -16,7 +16,7 @@ Create a repository on GitHub and write a program in any programming language th
 
 Solution has been implemented using Django framework.
 
-Application URL: https://radiusagent.herokuapp.com
+Application URL: https://radiusagent.herokuapp.com/FindGitHubIssues/
 
 How it has been implemented:
 
