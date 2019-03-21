@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d257718b-ea58-4467-8db5-b47a35b5b23e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/utils/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/utils/Data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/utils/Search.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GithubIssues/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RadiusAgent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RadiusAgent/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GithubIssues/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="371">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -74,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -133,11 +129,11 @@
         <option value="$PROJECT_DIR$/GithubIssues/urls.py" />
         <option value="$PROJECT_DIR$/RadiusAgent/urls.py" />
         <option value="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" />
-        <option value="$PROJECT_DIR$/RadiusAgent/settings.py" />
         <option value="$PROJECT_DIR$/GithubIssues/utils/Search.py" />
         <option value="$PROJECT_DIR$/GithubIssues/utils/Data.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/GithubIssues/views.py" />
+        <option value="$PROJECT_DIR$/RadiusAgent/settings.py" />
       </list>
     </option>
   </component>
@@ -253,24 +249,24 @@
       <workItem from="1553052992434" duration="2225000" />
       <workItem from="1553106791516" duration="21688000" />
       <workItem from="1553149645002" duration="631000" />
-      <workItem from="1553190392644" duration="8398000" />
+      <workItem from="1553190392644" duration="10018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76990000" />
+    <option name="totallyTimeSpent" value="78610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18130311" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.2181303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18130311" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.2181303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/HomePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -464,11 +453,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="371">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
