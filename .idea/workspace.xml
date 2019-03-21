@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d257718b-ea58-4467-8db5-b47a35b5b23e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RadiusAgent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RadiusAgent/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RadiusAgent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RadiusAgent/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
-              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -65,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -268,12 +263,12 @@
       <updated>1552920516814</updated>
       <workItem from="1552920518413" duration="44048000" />
       <workItem from="1553052992434" duration="2225000" />
-      <workItem from="1553106791516" duration="17117000" />
+      <workItem from="1553106791516" duration="17351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63390000" />
+    <option name="totallyTimeSpent" value="63624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -446,23 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GithubIssues/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RadiusAgent/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -487,6 +465,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GithubIssues/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
         </state>
       </provider>
     </entry>
