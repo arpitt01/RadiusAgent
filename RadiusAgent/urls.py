@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include, url
+from GithubIssues import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^GitHub/', include('GithubIssues.urls')),
+    url('', views.home, name='main'),
+    url('Results/', views.results, name='results'),
 ]

@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d257718b-ea58-4467-8db5-b47a35b5b23e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/utils/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/utils/Data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/utils/Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/utils/Search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubIssues/utils/Validations.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/utils/Validations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GithubIssues/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GithubIssues/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/GithubIssues/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RadiusAgent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RadiusAgent/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RadiusAgent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RadiusAgent/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +21,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/HomePage.html">
+        <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GithubIssues/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#!!top" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
+        <entry file="file://$PROJECT_DIR$/RadiusAgent/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+            <state relative-caret-position="391">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
-                <element signature="e#1#952#0#HTML" />
+                <element signature="e#635#667#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GithubIssues/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="198">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -57,10 +66,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GithubIssues/utils/Search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-193">
               <caret line="49" column="101" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -103,26 +133,29 @@
       <list>
         <option value="$PROJECT_DIR$/GithubIssues/migrations/urls.py" />
         <option value="$PROJECT_DIR$/GithubIssues/apps.py" />
-        <option value="$PROJECT_DIR$/RadiusAgent/urls.py" />
         <option value="$PROJECT_DIR$/GithubIssues/BinarySearch/getIssueCount.py" />
         <option value="$PROJECT_DIR$/GithubIssues/BinarySearch/Search.py" />
         <option value="$PROJECT_DIR$/GithubIssues/templates/styles/HomePage.css" />
         <option value="$PROJECT_DIR$/GithubIssues/templates/GitHub/HomePage.html" />
-        <option value="$PROJECT_DIR$/GithubIssues/urls.py" />
-        <option value="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/RadiusAgent/wsgi.py" />
-        <option value="$PROJECT_DIR$/RadiusAgent/settings.py" />
         <option value="$PROJECT_DIR$/GithubIssues/utils/Data.py" />
         <option value="$PROJECT_DIR$/GithubIssues/utils/Validations.py" />
         <option value="$PROJECT_DIR$/GithubIssues/utils/Search.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/GithubIssues/views.py" />
+        <option value="$PROJECT_DIR$/RadiusAgent/settings.py" />
+        <option value="$PROJECT_DIR$/RadiusAgent/urls.py" />
+        <option value="$PROJECT_DIR$/GithubIssues/urls.py" />
+        <option value="$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,6 +194,11 @@
               <item name="GithubIssues" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RadiusAgent1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RadiusAgent1" type="462c0819:PsiDirectoryNode" />
+              <item name="RadiusAgent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PermitToWorkVersion1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -230,12 +268,12 @@
       <updated>1552920516814</updated>
       <workItem from="1552920518413" duration="44048000" />
       <workItem from="1553052992434" duration="2225000" />
-      <workItem from="1553106791516" duration="12042000" />
+      <workItem from="1553106791516" duration="17117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58315000" />
+    <option name="totallyTimeSpent" value="63390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -246,8 +284,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16572239" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.2181303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16572239" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.2181303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,26 +353,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/templates/styles/HomePage.css" />
-    <entry file="file://$PROJECT_DIR$/RadiusAgent/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GithubIssues/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -387,17 +405,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/utils/Validations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -418,30 +439,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GithubIssues/utils/Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="49" column="101" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GithubIssues/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/templates/GitHub/ResultPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
+        <state relative-caret-position="385">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RadiusAgent/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding>
-            <element signature="e#1#952#0#HTML" />
+            <element signature="e#635#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GithubIssues/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        <state relative-caret-position="198">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GithubIssues/utils/Search.py">
+    <entry file="file://$PROJECT_DIR$/RadiusAgent/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="49" column="101" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="101" />
+        <state relative-caret-position="272">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
         </state>
       </provider>
     </entry>

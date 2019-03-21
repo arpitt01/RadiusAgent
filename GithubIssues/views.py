@@ -30,8 +30,11 @@ def home(request):
             # create full url from api and url entered
             lv_api = "https://api.github.com/repos/" + lo_url['ev_rep_path']
             # call github api from requests.get() function --> convert it into json --> get "open_issues_count" value drom json
-            try:
-                lv_total_issue_count = requests.get(lv_api).json()["open_issues_count"]
+            lo_issues_data = requests.get(lv_api)
+            if lo_issues_data.status_code == 403:
+                messages.error(request, "Maximum requests within 1 hour to Github API reached. Please try after 1 hour. MORE DETAILES: https://developer.github.com/v3/#rate-limiting")
+            else:
+                lv_total_issue_count = lo_issues_data.json()["open_issues_count"]
 
                 # considering github issues as 2D array of size: lv_total_rows X 100
                 # so we get total number of rows by "lv_total_issue_count/100"
@@ -56,8 +59,7 @@ def home(request):
                     "ev_remaining_issues": lv_remaining_issues
                 }
                 return render(request, 'GitHub/ResultPage.html', context)
-            except requests.exceptions.RequestException as e:
-                messages.error(request, "API request limit reached")
+
 
     return render(request, 'GitHub/HomePage.html')
 
