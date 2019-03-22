@@ -23,6 +23,9 @@ How it has been implemented:
 To diaplay the number of issues api provided by Github has been used:
 API used : https://api.github.com/search/issues
 
+Note: there might be some cases where this api returns  issues with a difference of +/-1. This maight be due to newly created/deleted/merged issues 
+
+
 **Solution**
 - In order to fetch the count of asked issues parameters are passed in the api to query
 - https://api.github.com/search/issues?q=repo:{REPOSITORY_NAME}+is:open+type:issue+created:>{TIMESTAMP}&page=1&per_page=1
