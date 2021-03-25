@@ -94,7 +94,7 @@ PySocks==1.6.7
 python-dateutil==1.5
 pytz==2017.2
 pywinpty==0.5.4
-PyYAML==3.12
+PyYAML==5.4
 pyzmq==17.1.2
 qtconsole==4.4.3
 requests==2.21.0
